@@ -1,0 +1,14 @@
+/* stylelint-disable font-family-name-quotes */
+@font-face {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/src/assets/font/StratosSkyeng.woff") format("woff");
+}
+
+@font-face {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/src/assets/font/StratosSkyeng.woff2") format("woff2");
+}
