@@ -13,7 +13,6 @@ module.exports = {
           "@shared": "./src/shared",
           "@components": "./src/components",
           "@layout": "./src/layout",
-          "@page": "./src/page",
           "@interface": "./src/interface",
         },
       },

@@ -20,9 +20,6 @@
             "@layout/": [
                 "src/layout/"
             ],
-            "@page/": [
-                "src/page/"
-            ],
             "@interface/": [
                 "./src/interface"
             ],
