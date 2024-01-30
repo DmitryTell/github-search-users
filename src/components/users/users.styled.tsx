@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const UsersContainer = styled.div`
     max-width: 1440px;
+    min-height: 400px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -74,4 +75,10 @@ export const UsersAva = styled.div`
 export const UsersName = styled.p`
     font-size: 18px;
     line-height: 100%;
+`;
+
+export const UsersErrorText = styled.p`
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 120%;
 `;

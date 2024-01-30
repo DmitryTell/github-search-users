@@ -5,9 +5,10 @@ import * as Styled from './button.styled';
 
 interface IButton extends HTMLProps<HTMLButtonElement> {
   text: string;
+  disabled?: boolean;
   onClick: React.MouseEventHandler;
 }
 
-export const Button: FC<IButton> = ({ text, onClick }) => (
-  <Styled.Button onClick={ onClick }>{ text }</Styled.Button>
+export const Button: FC<IButton> = ({ text, disabled, onClick }) => (
+  <Styled.Button disabled={ disabled } onClick={ onClick }>{ text }</Styled.Button>
 );

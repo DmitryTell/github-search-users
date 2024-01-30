@@ -49,4 +49,21 @@ export const GlobalStyle = createGlobalStyle`
     button {
         cursor: pointer;
     }
+
+    @-webkit-keyframes loading-animation {
+        0% {
+            background: #dadbdb;
+        }
+        100% {
+            background: #f4f9f6;
+        }
+    }
+    @keyframes loading-animation {
+        0% {
+            background: #dadbdb;
+        }
+        100% {
+            background: #f4f9f6;
+        }
+    }
 `;

@@ -15,4 +15,9 @@ export const Button = styled.button`
         opacity: 1;
         border: 1px solid #000;
     }
+
+    &:disabled {
+        cursor: default;
+        opacity: 0.5;
+    }
 `;

@@ -1,4 +1,4 @@
-interface IUserItem {
+export interface IUserItem {
   login: string;
   id: number;
   node_id: string;
